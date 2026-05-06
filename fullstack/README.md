@@ -57,7 +57,7 @@ mysql -u root -p -e "CREATE DATABASE softprim_test CHARACTER SET utf8mb4 COLLATE
 mysql -u root -p softprim_test < setup.sql
 ```
 
-În urma importului veți avea trei tabele (`categories`, `products`, `orders`) cu chei străine, populate cu 5 categorii și 20 de produse reale. Pentru acest exercițiu folosiți doar `categories` și `products`.
+În urma importului veți avea trei tabele (`categories`, `products`, `orders`) populate cu 5 categorii și 20 de produse reale. Pentru acest exercițiu folosiți doar `categories` și `products`.
 
 ---
 
